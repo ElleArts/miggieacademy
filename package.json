@@ -4,7 +4,7 @@
   "description": "mongoDB",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server"
+    "start": "node index"
   },
   "author": "MigGie",
   "license": "ISC",
