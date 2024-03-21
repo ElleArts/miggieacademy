@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Londrina+Sketch&family=Love+Ya+Like+A+Sister&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Guerrilla&family=Protest+Revolution&family=Rubik+Glitch+Pop&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    /* overflow: hidden; */
+    
+}
+
+.font {
+    position: relative;
+    
+}
+
+video {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.logo {
+    position: absolute;
+    top: 100px;
+    left:70px;
+    fill: whitesmoke;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: auto;
+    cursor: pointer;   
+}
+
+.logo:hover{
+    fill:  rgb(50, 214, 50);
+}
+
+
+
+.logo1 {
+    position: absolute;
+    top: 100px;
+    left: 285px;
+    transform: translateX(-50%);
+    color: white; 
+    font-size: 60px; 
+    font-family:  "Protest Revolution";
+    cursor: pointer;
+}
+
+.heart {
+    position: absolute;
+    top: 250px;
+    left: 170px;
+    transform: translateX(-50%);
+    color: rgb(50, 214, 50); 
+    font-size: 60px; 
+    font-family:  "Protest Revolution";
+    cursor: pointer;
+}
+
+.heart:hover{
+    color: white;
+}
+
+.soul {
+    position: absolute;
+    top: 350px;
+    left: 150px;
+    transform: translateX(-50%);
+    color: white; 
+    font-size: 60px; 
+    font-family:  "Protest Revolution";
+    cursor: pointer;
+}
+
+.soul:hover{
+    color:  rgb(50, 214, 50);
+}
+
+.mind {
+    position: absolute;
+    top: 450px;
+    left: 150px;
+    transform: translateX(-50%);
+    color: rgb(50, 214, 50); 
+    font-size: 60px; 
+    font-family:  "Protest Revolution";
+    cursor: pointer;
+}
+
+.mind:hover{
+    color: white;
+}
+
+.logo1:hover{
+    color:  rgb(50, 214, 50);
+}
+
+nav {
+    position: absolute;
+    top: 55px;
+   right: -100px;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: flex-end;
+    font-size: 35px;    
+    cursor: pointer;
+    font-family: "Love Ya Like A Sister";
+}
+
+nav a {
+    margin: 0 10px;
+    color: rgb(50, 214, 50); 
+    text-decoration: none;
+    
+}
+
+.apply:hover{
+    border: 2px solid white;
+    border-radius: 15px;
+    font-size: 35px;
+    background-color: white;
+}
+
+.supplies{
+    color: white;
+}
+
+.supplies:hover{
+    border: 2px solid white;
+    border-radius: 15px;
+    font-size: 35px;
+    background-color: rgb(50, 214, 50);
+
+}
+
+.search:hover{
+    border: 2px solid rgb(50, 214, 50);
+    border-radius: 15px;
+    font-size: 45px;
+    fill: white;
+    
+}
+
+.search {
+    fill: rgb(50, 214, 50); 
+    margin-left: 10px;
+    width: 20px; 
+    height: auto;
+}
+
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+   
+  }
+  
+  .search:hover + .dropdown,
+  .dropdown:hover {
+    display: block;
+    font-size: 28px;
+    
+  }
+  
+  .dropdown ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropdown li {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    transition: white 0.3s;
+    
+  }
+  
+  .dropdown li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Change background color on hover */
+  .dropdown li:hover {
+    background-color: #f9f9f9;
+    
+  }
+  
+  
+  
+/* .sch1{
+    background:url(images/sch\ \(2\).avif);
+    height: 1000px;
+    width: 500px;
+    position: relative;
+    top: 670px;
+} */
+
+
+
+@keyframes dance {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(0);
+    }
+    75% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  #dancing-text {
+    animation: dance 2s infinite; 
+    font-size: 30px;
+    /* background-color: rgb(50, 214, 50); */
+    color: white;
+    width: 100%;
+    
+  }
+
+ 
+

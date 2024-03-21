@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Kode+Mono:wght@400..700&family=Londrina+Sketch&family=Love+Ya+Like+A+Sister&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Guerrilla&family=Protest+Revolution&family=Rubik+Glitch+Pop&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    /* overflow: hidden; */
+    
+}
+
+.font {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(33, 135, 33);
+    z-index: 1000; /* Set a high z-index to ensure it's on top of other elements */
+}
+
+
+.log{
+    position: relative;
+    top: 80px;
+    left:70px;
+    fill: white;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+}
+
+.log:hover{
+    fill:  rgb(50, 214, 50);
+}
+
+.log1{
+    position: relative;
+    top: 9px;
+    left: -23px;
+    transform: translateX(-50%);
+    color: white; 
+    font-size: 60px; 
+    font-family:  "Protest Revolution";
+    cursor: pointer;
+}
+
+.log1:hover{
+    color:  rgb(50, 214, 50);
+}
+
+.apply{
+    color: white;
+    position: relative;
+    right: -500px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family:  "Protest Revolution";
+}
+
+.apply:hover{
+    border: 2px solid white;
+    border-radius: 15px;
+    font-size: 33px;
+    background-color: rgb(50, 214, 50);
+}
+
+.supplies{
+    color: white;
+    position: relative;
+    right: -530px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family:  "Protest Revolution";
+}
+
+.supplies:hover{
+    border: 2px solid white;
+    border-radius: 15px;
+    font-size: 33px;
+    background-color: rgb(50, 214, 50);
+
+}
+
+.signin1{
+    font-size: 70px;
+    color: rgb(33, 135, 33);
+    font-family: 'Londrina Sketch';
+    position: relative;
+    right: 80px;
+}
+
+label{
+    font-size: 18px;
+    color: rgb(22, 101, 22);
+}
+
+.input1{
+    width: 300px;
+    height: 30px;
+    color: rgb(13, 84, 13);
+    
+}
+
+.in1{
+    background-color: rgb(33, 135, 33);
+    border: 2px solid rgb(33, 135, 33);
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.in2{
+    background-color: rgb(33, 135, 33);
+    border: 2px solid rgb(33, 135, 33);
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    position: relative;
+    left: 250px;
+    top: -90px;
+}
+
+
+
+.in1:hover{
+    background-color: rgb(50, 214, 50);
+    border: 2px solid rgb(50, 214, 50);
+}
+
+.in2:hover{
+    background-color: rgb(50, 214, 50);
+    border: 2px solid rgb(50, 214, 50);
+}
+
+.create{
+    height: 1000px;
+    width: 900px;
+    margin-top: 180px;
+    position: relative;
+    left: 340px;
+    
+}
+
+
+
+
+
+
